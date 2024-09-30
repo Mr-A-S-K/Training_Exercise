@@ -2,7 +2,7 @@ import json
 from datetime import datetime, timedelta
 
 # Load data from JSON file
-with open('trainings.txt', 'r') as file:
+with open('./Python_exercise/trainings.txt', 'r') as file:
     data = json.load(file)
 
 # Task 1: List each completed training with a count of how many people completed it
